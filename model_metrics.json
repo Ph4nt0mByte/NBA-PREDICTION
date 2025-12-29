@@ -1,0 +1,31 @@
+{
+    "logistic_accuracy": 83.69,
+    "random_forest_accuracy": 82.88,
+    "xgboost_accuracy": 81.96,
+    "best_model": "Logistic",
+    "overall_accuracy": 83.69,
+    "classification_report": {
+        "away_win": {
+            "precision": 0.81,
+            "recall": 0.79,
+            "f1": 0.8,
+            "support": 2182
+        },
+        "home_win": {
+            "precision": 0.86,
+            "recall": 0.87,
+            "f1": 0.86,
+            "support": 3129
+        },
+        "macro_avg": {
+            "precision": 0.83,
+            "recall": 0.83,
+            "f1": 0.83
+        },
+        "weighted_avg": {
+            "precision": 0.84,
+            "recall": 0.84,
+            "f1": 0.84
+        }
+    }
+}
